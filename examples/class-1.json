@@ -1,0 +1,40 @@
+{
+    "description" : "Testing type: class -- Different instances",
+    "class"       : "./my-math",
+    "common"      : {
+        "construct" : [
+            100
+        ]
+    },
+    "tests"       : [
+        {
+            "description" : "Constructor",
+            "property"    : "value",
+            "expected"    : 100
+        },
+        {
+            "description" : "Operation: sub",
+            "method"      : "sub",
+            "params"      : [
+                23
+            ],
+            "expected"    : 77
+        },
+        {
+            "description" : "Operation: sum",
+            "method"      : "sum",
+            "params"      : [
+                15
+            ],
+            "expected"    : 115
+        },
+        {
+            "description" : "Operation: mul",
+            "method"      : "mul",
+            "params"      : [
+                20
+            ],
+            "expected"    : 2000
+        }
+    ]
+}

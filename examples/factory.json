@@ -1,0 +1,19 @@
+{
+    "description" : "Testing type: factory",
+    "factory"     : "./factory",
+    "tests"       : [
+        {
+            "description" : "Get max value",
+            "params"      : [
+                12,
+                15
+            ],
+            "expected"    : 15
+        },
+        {
+            "description" : "Build greeting",
+            "name"        : "User",
+            "expected"    : "Hello User"
+        }
+    ]
+}
