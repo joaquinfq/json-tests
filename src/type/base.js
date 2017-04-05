@@ -107,7 +107,7 @@ module.exports = class TypeBase {
         let _result;
         try
         {
-            assert.deepEqual(actual, expected);
+            assert.deepStrictEqual(actual, expected);
             _result = true;
         }
         catch (e)
